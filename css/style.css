@@ -23,7 +23,7 @@ header {
 }
 #main-navigation ul a {
 	text-decoration: none;
-	float: left;
+	/* float: left; */
 	padding: 5px 12px;
 	color: #fff;
 }
@@ -31,6 +31,12 @@ header {
 	background-color: #643a79;
 	color: #fff;
 	font-size: 1rem;
+}
+#nav {
+	width: 100%;
+	margin: 0 0 1em 0;
+	padding: 0;
+	margin-bottom: 60px;
 }
 .logo {
 	font-size: 2rem;
@@ -118,12 +124,6 @@ header {
 	padding-top: 120px;
 	padding-bottom: 110px;
 }
-#nav {
-	width: 100%;
-	margin: 0 0 1em 0;
-	padding: 0;
-	margin-bottom: 60px;
-}
 .pull-right {
 	margin-left: 35%;
 }
@@ -163,4 +163,13 @@ header {
 .portfolio-btn:hover {
 	background-color: #fff;
 	color: #17c2a4;
+}
+/* style for desktop */
+@media screen and (min-width: 992px) {
+	#main-navigation ul a {
+	text-decoration: none;
+	float: left;
+	padding: 5px 12px;
+	color: #fff;
+	}	
 }
