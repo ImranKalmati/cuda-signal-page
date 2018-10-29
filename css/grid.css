@@ -3,7 +3,7 @@
 }
 .container {
 	width: 95%;
-	max-width: 1440px;
+	max-width: 1090px;
 	margin: 0 auto;
   padding-right: 15px;
   padding-left: 15px;
@@ -85,11 +85,11 @@ img {
   .grid-col-lg-5 {
       width: 41.666%;
   }
+  .offset-grid-col-lg-5 {
+    margin-left: 41.666%;
+  }
   .grid-col-lg-6 {
       width: 50%;
-  }
-  .offset-grid-col-lg-6 {
-    margin-left: 41.666%;
   }
   .grid-col-lg-7 {
       width: 58.333%;
