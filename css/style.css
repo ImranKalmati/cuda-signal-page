@@ -1,0 +1,241 @@
+html {
+	font-size: 16px;
+}
+.img-responsive {
+	width: 100%;
+	height: auto;
+}
+header {
+  z-index: 99999;
+  overflow: hidden;
+  padding: 25px 0px;
+  width: 960px;
+  position:absolute;
+  left:0;
+  right:0;
+  margin-left:auto;
+  margin-right:auto;
+  width: 100%;
+}
+/* .slider-section {
+	z-index: 99999;
+  overflow: hidden;
+  padding: 25px 0px;
+  width: 960px;
+  position:absolute;
+  left:0;
+  right:0;
+  margin-left:auto;
+  margin-right:auto;
+  width: 100%;
+} */
+.mySlides {
+	width: 100%;
+	height: 500px;
+}
+#header {
+	/* background-color: #87509c; */
+	/* position: absolute;  */
+	/* width: 100%; */
+  /* padding-top: 40px; */
+	/* padding-bottom: 130px; */
+}
+#main-navigation ul a {
+	text-decoration: none;
+	float: left;
+	padding: 5px 12px;
+	color: #fff;
+}
+#main-navigation ul a:hover {
+	background-color: #643a79;
+	color: #fff;
+	font-size: 1rem;
+}
+.logo {
+	font-size: 2rem;
+	font-weight: 600;
+}
+
+/* .main-navigation {
+	margin-left: 50%;
+} */
+.h1 {
+	font-size: 2.562rem;
+}
+/* .hero-section {
+	position: relative;
+	width: 100%;
+	top: auto;
+	bottom: auto;
+	right: auto;
+	left: auto;
+	width: 100%;
+  overflow: hidden;
+  position: relative;
+} */
+/* .text-align-center {
+	text-align: center;
+}
+.display-block {
+	display: block;
+} */
+.img-border {
+	border: solid 1px #878787;
+	border-radius: 94px;
+}
+.services-section {
+	background-color:#17c2a4;
+	padding-top: 110px;
+	padding-bottom: 120px;
+}
+.text-center {
+	text-align: center;
+}
+.primary-title,
+.primary-para {
+	font-family: 'Titillium Web', sans-serif;
+	color: #fff;
+}
+.primary-title {
+	font-weight: bold;
+	font-size: 2.5rem;
+	margin-bottom: 40px;
+}
+.primary-para {
+	margin-bottom: 70px;
+	font-size: 1.2rem;
+}
+.working-icon {
+	font-size: 120px;
+}
+.team-skills {
+	padding-top: 110px;
+	padding-bottom: 124px;
+	background-color: #e7f1f8;
+}
+.img-size {
+	width: 190px;
+	height: 190px;
+	margin-bottom: 30px;
+}
+.skills-title {
+  font-size: 2.5rem;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bold;
+  margin-bottom: 50px;
+  color: #3c4761;
+}
+.skills-para {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 1.2rem;
+	margin-bottom: 70px;
+	color: #5d677b;
+}
+.skills {
+	text-decoration: none;
+	color: #55c2e9;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 1rem;
+}
+.skills:hover {
+	color: red;
+}
+.team-name {
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: bold;
+	font-size: 1.5rem;
+	margin-bottom: 10px;
+}
+.team-para {
+	margin-top: 24px;
+}
+.working-info {
+	padding-top: 110px;
+	padding-bottom: 124px;
+}
+/* .navigation .btn {
+	text-decoration: none;
+	float: left;
+} */
+/* .btn {
+	padding: 8px 24px;
+}
+div .nav {
+  text-align: center;
+}
+div .nav ul{
+  display: inline-block;
+}
+ */
+/* div .nav .button {
+	text-decoration: none;
+	float: left;
+	display: inline-block; 
+} */
+.portfolio {
+	background-color: #ffdd99;
+	padding-top: 120px;
+	padding-bottom: 110px;
+}
+#nav {
+	width: 100%;
+	/* float: left; */
+	margin: 0 0 1em 0;
+	padding: 0;
+	margin-bottom: 60px;
+	/* background-color: #f2f2f2; */
+	/* border-bottom: 1px solid #ccc;  */
+	 }
+.pull-right {
+	margin-left: 35%;
+}
+#nav ul {
+	list-style: none;
+	width: 800px;
+	margin: 0 auto;
+	padding: 0; }
+#nav li {
+	float: left; }
+/* #nav li a {
+	display: block;
+	text-decoration: none;
+	font-weight: bold;	}
+	color: #069;
+	border-right: 1px solid #ccc;
+	
+#nav li:first-child a {
+	border-left: 1px solid #ccc; }
+#nav li a:hover {
+	color: #c00;
+	background-color: #fff; }
+ */
+.button {
+	border: solid 1px #ebc985;
+	background-color: #ebc985;
+	color: #393939;
+	margin-right: 7px;
+	padding: 8px 24px;
+	display: block;
+	text-decoration: none;
+	font-weight: bold;
+}
+.button:hover {
+	background-color: #fff;
+	color: #393939;
+}
+.portfolio-img {
+	width: 650px;
+	height: 300px;
+	margin-bottom: 24px;
+}
+.portfolio-btn {
+	padding: 20px 50px;
+	border: solid 1px;
+	text-decoration: none;
+	background-color: #17c2a4;
+	color: #fff;
+}
+.portfolio-btn:hover {
+	background-color: #fff;
+	color: #17c2a4;
+}
