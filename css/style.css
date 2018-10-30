@@ -1,10 +1,6 @@
 html {
 	font-size: 16px;
 }
-.img-responsive {
-	width: 100%;
-	height: auto;
-}
 header {
   z-index: 99999;
   overflow: hidden;
@@ -17,6 +13,7 @@ header {
   margin-right:auto;
   width: 100%;
 }
+/* slider navigation and logo style */
 .mySlides {
 	width: 100%;
 	height: 500px;
@@ -26,20 +23,15 @@ header {
 	/* float: left; */
 	padding: 5px 12px;
 	color: #fff;
+	font-size: 2rem;
 }
 #main-navigation ul a:hover {
 	background-color: #643a79;
 	color: #fff;
-	font-size: 1rem;
-}
-#nav {
-	width: 100%;
-	margin: 0 0 1em 0;
-	padding: 0;
-	margin-bottom: 60px;
+	font-size: 2rem;
 }
 .logo {
-	font-size: 2rem;
+	font-size: 6rem;
 	font-weight: 600;
 }
 .h1 {
@@ -64,8 +56,9 @@ header {
 }
 .primary-title {
 	font-weight: bold;
-	font-size: 2.5rem;
+	font-size: 2.4rem;
 	margin-bottom: 40px;
+	text-transform: uppercase;
 }
 .primary-para {
 	margin-bottom: 70px;
@@ -73,6 +66,8 @@ header {
 }
 .working-icon {
 	font-size: 120px;
+	margin-bottom: 50px;
+	color: #fff;
 }
 .team-skills {
 	padding-top: 110px;
@@ -83,6 +78,7 @@ header {
 	width: 190px;
 	height: 190px;
 	margin-bottom: 30px;
+	margin-top: 50px;
 }
 .skills-title {
   font-size: 2.3rem;
@@ -90,6 +86,7 @@ header {
   font-weight: bold;
   margin-bottom: 50px;
   color: #3c4761;
+  text-transform: uppercase;
 }
 .skills-para {
 	font-family: 'Titillium Web', sans-serif;
@@ -102,6 +99,7 @@ header {
 	color: #55c2e9;
 	font-family: 'Titillium Web', sans-serif;
 	font-size: 1rem;
+	text-transform: uppercase;
 }
 .skills:hover {
 	color: red;
@@ -111,6 +109,7 @@ header {
 	font-weight: bold;
 	font-size: 1.5rem;
 	margin-bottom: 10px;
+	text-transform: uppercase;
 }
 .team-para {
 	margin-top: 24px;
@@ -124,33 +123,43 @@ header {
 	padding-top: 120px;
 	padding-bottom: 110px;
 }
-.pull-right {
-	margin-left: 35%;
-}
+/* portfolio links style */
+/* #nav {
+	width: 100%;
+	margin: 0 0 1em 0;
+	padding: 0;
+} */
 #nav ul {
 	list-style: none;
-	width: 800px;
 	margin: 0 auto;
-	padding: 0; }
+	padding: 0;
+}
 #nav li {
-	float: left; }
+	float: left;
+}
 .button {
 	border: solid 1px #ebc985;
 	background-color: #ebc985;
 	color: #393939;
 	margin-right: 7px;
-	padding: 8px 24px;
+	padding: 8px 16px;
 	display: block;
 	text-decoration: none;
 	font-weight: bold;
+	text-transform: uppercase;
 }
 .button:hover {
 	background-color: #fff;
 	color: #393939;
 }
-.portfolio-img {
-	width: 650px;
+/* .portfolio-img {
+	width: 540px;
 	height: 300px;
+	margin-bottom: 24px;
+	padding-top: 60px;
+} */
+.padding-top-bottom {
+	margin-top: 60px;
 	margin-bottom: 24px;
 }
 .portfolio-btn {
@@ -159,6 +168,8 @@ header {
 	text-decoration: none;
 	background-color: #17c2a4;
 	color: #fff;
+	text-transform: uppercase;
+	font-weight: 600;
 }
 .portfolio-btn:hover {
 	background-color: #fff;
@@ -166,10 +177,35 @@ header {
 }
 /* style for desktop */
 @media screen and (min-width: 992px) {
+	/* header navigation and logo style */
 	#main-navigation ul a {
 	text-decoration: none;
 	float: left;
 	padding: 5px 12px;
 	color: #fff;
+	font-size: 1rem;
+	font-family: 'Titillium Web', sans-serif;
 	}	
+	#main-navigation {
+		margin-top: 10px;
+	}
+	.logo {
+		font-family: 'Titillium Web', sans-serif;
+		font-weight: 600;
+		font-size: 2.5rem;
+	}
+	/* #nav {
+	width: 100%;
+	margin: 0 0 1em 0;
+	padding: 0;
+	} */
+	.pull-right {
+	margin-left: 35%;
+	}
+	/* #nav ul {
+	width: 800px;
+	} */
+	#nav li {
+	float: left; 
+	}
 }
